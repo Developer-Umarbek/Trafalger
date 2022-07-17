@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+/*Navbar start*/
+
+
+.navbar{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+.nav ul li{
+	display: inline-block;
+	position: relative;
+	bottom: 2rem;
+	left: 40rem;
+	margin-left: 25px;
+}
+.menu{
+	font-weight: 700;
+}
+
+.container{
+	display: flex;
+	margin-top: 4rem;
+}
+
+.box h1{
+	font-size: 29px;
+	margin-bottom: 1.5rem;
+}
+
+.box p{
+	color: gray;
+	line-height: 23px;
+}
+
+.box button{
+	margin-top: 2rem;
+	background-color: blue;
+	border: 1px solid blue;
+	padding: 15px;
+	border-radius: 25px;
+	color: #fff;
+}
+.box2 img{
+	width: 400px;
+	margin-left: 20rem;
+	position: relative;
+	bottom: 4rem;
+}
+
+/*End of Navbar*/
+
+
+/*start of list*/
+
+
+.list{
+	width: 80%;
+	margin: 0 auto;
+}
+.title h1{
+	text-align: center;
+	font-size: 29px;
+}
+.title p{
+	color: dimgray;
+	text-align: center;
+	line-height: 23px;
+}
+.list hr{
+	width: 48px;
+	margin-left: 48%;
+	color: #000;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+
+/*end of list*/
+
+
+/*start of card*/
+
+.card{
+	display: flex;
+	background-color: ;
+}
+
+.icons{
+	border: 2px solid transparent;
+	box-shadow: 4px 4px 4px 4px grey;
+	border-radius: 15px;
+	width: 300px;
+	height: 270px;
+	margin-left: 3rem;
+	margin-top: 2rem;
+
+}
+.icons img{
+	margin: 1.5rem 0 0 1rem;
+}
+.icons p{
+	color: gray;
+	margin-top: .5rem;
+	line-height: 20px;
+}
+.icons p , h1{
+	margin-left: 1rem;
+}
+
+
+.button{
+	color: blue;
+	border: 1px solid blue;
+	margin-top: 5rem;
+	margin-left: 28rem;
+	padding: 15px 40px;
+	border-radius: 25px;
+	margin-bottom: 2rem;
+}
+/*end of card*/
+
+/*start of main*/
+
+main{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+.main{
+	display: flex;
+	margin-top: 2rem;
+}
+.article h1{
+	line-height: 35px;
+	color: #000;
+}	
+
+.article hr{
+	width: 55px;
+	margin: 1rem;
+}
+.article p{
+	color: gray;
+	line-height: 25px;
+	margin-left: 1rem;
+	letter-spacing: 1px;
+}
+
+.main-button{
+	padding: 10px 20px; 
+	margin-top: 2rem;
+	margin-left: 1rem;
+	border: 1px solid blue;
+	color: blue;
+	border-radius: 18px;
+}
+
+.main-img img{
+	width: 470px;
+	position: relative;
+	left: 15rem;
+	bottom: 3rem;
+}
+
+
+.main-img2 img{
+	width: 470px;
+	position: relative;
+	bottom: 3rem;
+}
+
+
+.article2{
+	position: relative;
+	left: 10rem;
+}
+
+.article2 h1{
+	line-height: 35px;
+	color: #000;
+}	
+
+.article2 hr{
+	width: 55px;
+	margin: 1rem;
+}
+.article2 p{
+	color: gray;
+	line-height: 25px;
+	margin-left: 1rem;
+	letter-spacing: 1px;
+}
+
+
+/*end of main*/
+
+/*start of aside*/
+
+aside{
+	background-color: dodgerblue;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 30px;
+}
+aside h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 2rem;
+}
+aside hr{
+	width: 50px;
+	margin: 1rem 0 1rem 47%; 
+}
+.aside-img h1{
+	position: relative;
+	left: 5rem;
+	top: 4rem;
+	font-size: 18px;
+	color: #fff;
+}
+.aside-flex{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+	bottom: 3rem;
+}
+
+.aside-paragraf{
+	color: #fff;
+	position: relative;
+	top: 5rem;
+	left: 8rem;
+	line-height: 25px;
+}
+
+.arrow{
+	margin-left: 38%;
+	margin-top: 2rem;
+}
+
+/*end of aside*/
+
+/*start of title-card*/
+
+.title-text{
+	text-align: center;
+	margin: 2rem;
+	font-size: 18px;
+}
+
+.title-text hr{
+	width: 55px;
+	margin-left: 37.5rem;
+	margin-top: 2rem;
+}
+.title-card{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	margin-left: 10rem;
+}
+
+.cards{
+	border: 2px solid transparent;
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px gray;
+	margin-right: 4rem;
+}
+
+.card-img{
+	width: 100%;
+	margin: 0 auto;
+}
+.cards h2{
+	font-size: 20px;
+	margin: 1rem;
+}
+
+.cards p{
+	line-height: 24px;
+	margin: 1rem;
+}
+.title-card .cards a{
+	color: dodgerblue;
+	margin: 0 0 1rem 1rem;
+}
+
+.cards-button{
+	margin: 2rem;
+	margin-left: 37rem;
+	padding: 10px 30px;
+	color: blue;
+	border: 1px solid blue;
+	border-radius: 17px;
+
+}
+
+/*end of title-card*/
+
+
+
+/*start of footer*/
+
+
+footer{
+	width: 75%;
+	margin: 0 auto;
+	background-color: dodgerblue;
+	height: 250px;
+	border-radius: 25px;
+}
+.footer-1{
+	width: 45%;
+	margin-left: 4rem;
+	margin-top: 2rem;
+}
+.footer-1 img{
+	width: 150px;
+	color: #fff;
+	padding: .7rem;
+	margin-left: 2rem;
+	margin-top: 3rem;
+}
+.footer-1 p{
+	color: #fff;
+	line-height: 25px;
+	margin-left: 3rem;
+	margin-top: .5rem;
+}
+
+.list-2{
+	width: 500px;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+	bottom: 10rem;
+	left: 10rem;
+	color: #fff;
+	margin-right: 15rem;
+}
+.list-2 ul li {
+	list-style: none;
+	padding-top: 1rem;
+	margin-left: 3rem;
+}
+
+.list-2 p{
+	margin-left: 3rem;
+	font-size: 18px;
+}
+
+/*end of footer*/
